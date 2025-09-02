@@ -13,20 +13,39 @@ html {
 }
 
 .profile {
-    background-color: black;
+    background-color: rgb(139, 0, 30);
+    /* background-color: white; */
     color: white;
-    height: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile .profile-start, .profile .profile-body{
     font-size: 1.1em;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .profile .references{
     font-size: 1.1em;
-    display: flex;
+    border: 1px solid black;
+    /* TODO: I should be able to change the colors of those links on hover and the default */
 }
 
-.references ul
+.profile .references a:hover{
+    color: yellow;
+}
+
+.profile .references a{
+    color: lightblue;
+}
+
+.profile .references li{
+    /* list-style: armenian; */
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+/* .references ul */
