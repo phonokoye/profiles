@@ -1,0 +1,32 @@
+/* body {
+    display: flex;
+} */
+
+/* body{
+    height: 100%;
+} */
+
+html {
+    height: 100%;
+    background-color: purple;
+    display: flex;
+}
+
+.profile {
+    background-color: black;
+    color: white;
+    height: 50%;
+}
+
+.profile .profile-start, .profile .profile-body{
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile .references{
+    font-size: 1.1em;
+    display: flex;
+}
+
+.references ul
